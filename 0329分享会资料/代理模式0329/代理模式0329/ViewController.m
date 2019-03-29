@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "ProxyViewController.h"
+#import "FacadeViewController.h"
+#import "MementoViewController.h"
 
 @interface ViewController ()
 
@@ -24,7 +26,12 @@
 	[self presentViewController:proxy animated:YES completion:nil];
 }
 - (IBAction)fasadeButtonClick:(UIButton *)sender {
-	
+	FacadeViewController *facade = [[FacadeViewController alloc] init];
+	[self presentViewController:facade animated:YES completion:nil];
+}
+- (IBAction)mementoButtonClick:(UIButton *)sender {
+	MementoViewController *memento = [[MementoViewController alloc] init];
+	[self presentViewController:memento animated:YES completion:nil];
 }
 
 

@@ -21,6 +21,14 @@
 		5F171514224CD91700A6182F /* FacadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F171512224CD91700A6182F /* FacadeViewController.m */; };
 		5F171515224CD91700A6182F /* FacadeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F171513224CD91700A6182F /* FacadeViewController.xib */; };
 		5F171518224CD9D300A6182F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F171517224CD9D300A6182F /* Person.m */; };
+		5F65F548224DA8BA00C76228 /* MementoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F65F546224DA8BA00C76228 /* MementoViewController.m */; };
+		5F65F549224DA8BA00C76228 /* MementoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F65F547224DA8BA00C76228 /* MementoViewController.xib */; };
+		5F65F54C224DA8E200C76228 /* GameRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F65F54B224DA8E200C76228 /* GameRole.m */; };
+		5F65F54F224DC7D700C76228 /* OriginatorRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F65F54E224DC7D700C76228 /* OriginatorRole.m */; };
+		5F65F552224DC7EF00C76228 /* RoleStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F65F551224DC7EF00C76228 /* RoleStateMemento.m */; };
+		5F65F555224DC82A00C76228 /* RoleStateCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F65F554224DC82A00C76228 /* RoleStateCaretaker.m */; };
+		5F65F55B224DDF1A00C76228 /* Stock.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F65F55A224DDF1A00C76228 /* Stock.m */; };
+		5F65F55E224DE3BD00C76228 /* Fund.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F65F55D224DE3BC00C76228 /* Fund.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +57,21 @@
 		5F171513224CD91700A6182F /* FacadeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacadeViewController.xib; sourceTree = "<group>"; };
 		5F171516224CD9D300A6182F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		5F171517224CD9D300A6182F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5F65F545224DA8BA00C76228 /* MementoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoViewController.h; sourceTree = "<group>"; };
+		5F65F546224DA8BA00C76228 /* MementoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoViewController.m; sourceTree = "<group>"; };
+		5F65F547224DA8BA00C76228 /* MementoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MementoViewController.xib; sourceTree = "<group>"; };
+		5F65F54A224DA8E200C76228 /* GameRole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameRole.h; sourceTree = "<group>"; };
+		5F65F54B224DA8E200C76228 /* GameRole.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameRole.m; sourceTree = "<group>"; };
+		5F65F54D224DC7D700C76228 /* OriginatorRole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginatorRole.h; sourceTree = "<group>"; };
+		5F65F54E224DC7D700C76228 /* OriginatorRole.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginatorRole.m; sourceTree = "<group>"; };
+		5F65F550224DC7EF00C76228 /* RoleStateMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoleStateMemento.h; sourceTree = "<group>"; };
+		5F65F551224DC7EF00C76228 /* RoleStateMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoleStateMemento.m; sourceTree = "<group>"; };
+		5F65F553224DC82A00C76228 /* RoleStateCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoleStateCaretaker.h; sourceTree = "<group>"; };
+		5F65F554224DC82A00C76228 /* RoleStateCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoleStateCaretaker.m; sourceTree = "<group>"; };
+		5F65F559224DDF1A00C76228 /* Stock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stock.h; sourceTree = "<group>"; };
+		5F65F55A224DDF1A00C76228 /* Stock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stock.m; sourceTree = "<group>"; };
+		5F65F55C224DE3BC00C76228 /* Fund.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fund.h; sourceTree = "<group>"; };
+		5F65F55D224DE3BC00C76228 /* Fund.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fund.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +108,9 @@
 				5F1714EB224CAF3400A6182F /* AppDelegate.m */,
 				5F1714ED224CAF3400A6182F /* ViewController.h */,
 				5F1714EE224CAF3400A6182F /* ViewController.m */,
-				5F171510224CD8CF00A6182F /* 外观模式 */,
 				5F17150F224CD8A500A6182F /* 代理模式 */,
+				5F65F544224DA88B00C76228 /* 备忘录模式 */,
+				5F171510224CD8CF00A6182F /* 外观模式 */,
 				5F1714F0224CAF3400A6182F /* Main.storyboard */,
 				5F1714F3224CAF3800A6182F /* Assets.xcassets */,
 				5F1714F5224CAF3800A6182F /* LaunchScreen.storyboard */,
@@ -118,11 +142,33 @@
 			children = (
 				5F171511224CD91700A6182F /* FacadeViewController.h */,
 				5F171512224CD91700A6182F /* FacadeViewController.m */,
+				5F171513224CD91700A6182F /* FacadeViewController.xib */,
 				5F171516224CD9D300A6182F /* Person.h */,
 				5F171517224CD9D300A6182F /* Person.m */,
-				5F171513224CD91700A6182F /* FacadeViewController.xib */,
+				5F65F559224DDF1A00C76228 /* Stock.h */,
+				5F65F55A224DDF1A00C76228 /* Stock.m */,
+				5F65F55C224DE3BC00C76228 /* Fund.h */,
+				5F65F55D224DE3BC00C76228 /* Fund.m */,
 			);
 			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		5F65F544224DA88B00C76228 /* 备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5F65F545224DA8BA00C76228 /* MementoViewController.h */,
+				5F65F546224DA8BA00C76228 /* MementoViewController.m */,
+				5F65F547224DA8BA00C76228 /* MementoViewController.xib */,
+				5F65F54A224DA8E200C76228 /* GameRole.h */,
+				5F65F54B224DA8E200C76228 /* GameRole.m */,
+				5F65F54D224DC7D700C76228 /* OriginatorRole.h */,
+				5F65F54E224DC7D700C76228 /* OriginatorRole.m */,
+				5F65F550224DC7EF00C76228 /* RoleStateMemento.h */,
+				5F65F551224DC7EF00C76228 /* RoleStateMemento.m */,
+				5F65F553224DC82A00C76228 /* RoleStateCaretaker.h */,
+				5F65F554224DC82A00C76228 /* RoleStateCaretaker.m */,
+			);
+			path = "备忘录模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +232,7 @@
 				5F171504224CAFF700A6182F /* ProxyViewController.xib in Resources */,
 				5F1714F4224CAF3800A6182F /* Assets.xcassets in Resources */,
 				5F1714F2224CAF3400A6182F /* Main.storyboard in Resources */,
+				5F65F549224DA8BA00C76228 /* MementoViewController.xib in Resources */,
 				5F171515224CD91700A6182F /* FacadeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,12 +246,19 @@
 			files = (
 				5F1714EF224CAF3400A6182F /* ViewController.m in Sources */,
 				5F17150A224CB93E00A6182F /* SchoolGirl.m in Sources */,
+				5F65F555224DC82A00C76228 /* RoleStateCaretaker.m in Sources */,
 				5F17150D224CB97200A6182F /* ProxyPerson.m in Sources */,
+				5F65F54C224DA8E200C76228 /* GameRole.m in Sources */,
 				5F171503224CAFF700A6182F /* ProxyViewController.m in Sources */,
+				5F65F548224DA8BA00C76228 /* MementoViewController.m in Sources */,
 				5F171514224CD91700A6182F /* FacadeViewController.m in Sources */,
+				5F65F54F224DC7D700C76228 /* OriginatorRole.m in Sources */,
+				5F65F55B224DDF1A00C76228 /* Stock.m in Sources */,
 				5F171507224CB53600A6182F /* PursuitViewController.m in Sources */,
+				5F65F552224DC7EF00C76228 /* RoleStateMemento.m in Sources */,
 				5F171518224CD9D300A6182F /* Person.m in Sources */,
 				5F1714FA224CAF3800A6182F /* main.m in Sources */,
+				5F65F55E224DE3BD00C76228 /* Fund.m in Sources */,
 				5F1714EC224CAF3400A6182F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
